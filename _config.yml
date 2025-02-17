@@ -14,7 +14,7 @@ repository               : "AlphaGoLzh/AlphaGoLzh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "lzh.png"
   name             : "Zehao Li"
   pronouns         : # example: "she/her"  
   bio              : "CS Ph.D. Candidate"
