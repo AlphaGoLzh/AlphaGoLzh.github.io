@@ -15,4 +15,4 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
   
 - **Yunnan University**  
   *B.E. in Computer Science (Excellent)* (2019 - 2023)  
-  Advisor: Prof. [Lizhen Wang]
+  Advisor: Prof. Lizhen Wang
