@@ -31,6 +31,7 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
 ## **🏆 Honors and Awards**
   - Yunnan Provincial Government Scholarship （2021 - 2022）
   - Hansen Scholarship of Yunnan University （2021 - 2022）
+  - The First Prize of CCCC in Yunnan Province （2022）
   - Merit Student of Yunnan Province （2020 - 2021）
   - First Prize Scholarship of Yunnan University （2019 - 2021）
 
