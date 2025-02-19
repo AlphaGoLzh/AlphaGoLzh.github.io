@@ -14,9 +14,9 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
 {% endif %}
 
 ### 2024
-- Baolong Bi, Shaohan Huang, Yiwei Wang, Tianchi Yang, Zihan Zhang, Haizhen Huang, Lingrui Mei, Junfeng Fang, `Zehao Li`, Furu Wei. **Context-DPO: Aligning Language Models for Context-Faithfulness**. [[page]](https://byronbbl.github.io/context-dpo.io/) [[arxiv]](https://www.arxiv.org/abs/2412.15280) [[paper]](https://arxiv.org/pdf/2412.15280)
+- Baolong Bi, Shaohan Huang, Yiwei Wang, Tianchi Yang, Zihan Zhang, Haizhen Huang, Lingrui Mei, Junfeng Fang, **Zehao Li**, Furu Wei. **Context-DPO: Aligning Language Models for Context-Faithfulness**. [[page]](https://byronbbl.github.io/context-dpo.io/) [[arxiv]](https://www.arxiv.org/abs/2412.15280) [[paper]](https://arxiv.org/pdf/2412.15280)
 
--	`Zehao Li`, Wenwei Han, Yujun Cai, Hao Jiang, Baolong Bi, Shuqin Gao, Honglong Zhao, Zhaoqi Wang. **GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision**.
+-	**Zehao Li**, Wenwei Han, Yujun Cai, Hao Jiang, Baolong Bi, Shuqin Gao, Honglong Zhao, Zhaoqi Wang. **GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision**.
 [[arxiv]](https://arxiv.org/abs/2412.00392) [[paper]](https://arxiv.org/pdf/2412.00392)
 
 ## **🎓 Education**
@@ -29,5 +29,9 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
   Advisor: Prof. Lizhen Wang
   
 ## **🏆 Honors and Awards**
-  - 
+  - Yunnan Provincial Government Scholarship （2021 - 2022）
+  - Hansen Scholarship of Yunnan University （2021 - 2022）
+  - Merit Student of Yunnan Province （2020 - 2021）
+  - First Prize Scholarship of Yunnan University （2019 - 2021）
+
 
