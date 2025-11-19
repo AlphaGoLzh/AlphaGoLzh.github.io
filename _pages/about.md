@@ -18,25 +18,6 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
 
 -	**Zehao Li**, Wenwei Han, Yujun Cai, Hao Jiang, Baolong Bi, Shuqin Gao, Honglong Zhao, Zhaoqi Wang. **GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision**. [[page]](https://alphagolzh.github.io/gradiseg.io/) [[arxiv]](https://arxiv.org/abs/2412.00392) [[paper]](https://arxiv.org/pdf/2412.00392)
 
--	<table>
-  <tr>
-    <!-- 左边：大图 -->
-    <td width="40%">
-      <img src="assets/gradiseg_teaser.png" alt="GradiSeg Overview" />
-    </td>
-
-    <!-- 右边：文字信息 -->
-    <td width="60%">
-      <b>Zehao Li</b>, Wenwei Han, Yujun Cai, Hao Jiang, Baolong Bi, 
-      Shuqin Gao, Honglong Zhao, Zhaoqi Wang. <br>
-      <b>GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision</b>. <br>
-      [\[page\]](https://alphagolzh.github.io/gradiseg.io/)
-      [\[arxiv\]](https://arxiv.org/abs/2412.00392)
-      [\[paper\]](https://arxiv.org/pdf/2412.00392)
-    </td>
-  </tr>
-</table>
-
 
 ## **🎓 Education**
 - **Institute of Computing Technology, Chinese Academy of Sciences**  
