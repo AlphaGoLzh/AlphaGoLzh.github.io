@@ -22,10 +22,8 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <!-- 这里的文字你可以先写 arXiv 2024，等中到会再改成 NeurIPS 20xx -->
       <div class="badge">Preprint</div>
-      <!-- 换成你自己的 teaser 图路径 -->
-      <img src='images/GradiSeg.png' alt="GradiSeg teaser" width="100%">
+      <img src='images/GradiSeg.png' alt="GradiSeg teaser" width="40%">
     </div>
   </div>
 
