@@ -23,7 +23,7 @@ I am a second-year **Ph.D. student** in Computer Science at [Institute of Comput
   <div class='paper-box-image'>
     <div>
       <div class="badge">Preprint</div>
-      <img src='images/GradiSeg.png' alt="GradiSeg teaser" width="40%">
+      <img src='images/GradiSeg.png' alt="GradiSeg teaser" width="100%">
     </div>
   </div>
 
