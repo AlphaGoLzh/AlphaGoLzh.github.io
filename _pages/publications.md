@@ -10,7 +10,7 @@ author_profile: true
 {% endif %}
 
 ### 2024
-<div class="paper-box"><div class="paper-box-image"><div><img src="{{ '/images/500x300.png' | relative_url }}" alt="Context-DPO preview" width="100%"></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Preprint 2024</div><img src="{{ '/images/500x300.png' | relative_url }}" alt="Context-DPO preview" width="100%"></div></div>
   <div class="paper-box-text" markdown="1">
 **Context-DPO: Aligning Language Models for Context-Faithfulness**
 
@@ -20,7 +20,7 @@ Baolong Bi, Shaohan Huang, Yiwei Wang, Tianchi Yang, Zihan Zhang, Haizhen Huang,
   </div>
 </div>
 
-<div class="paper-box"><div class="paper-box-image"><div><img src="{{ '/images/GradiSeg.png' | relative_url }}" alt="GradiSeg preview" width="100%"></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Preprint 2024</div><img src="{{ '/images/GradiSeg.png' | relative_url }}" alt="GradiSeg preview" width="100%"></div></div>
   <div class="paper-box-text" markdown="1">
 **GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision**
 
