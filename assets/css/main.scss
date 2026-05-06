@@ -42,76 +42,50 @@
 ;
 .paper-box {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    gap: 1.75rem;
-    padding: 2.25em 0;
+    padding: 2em 0 2em 0;
     
 
     .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
+        order: 2;
         img {
-            width: 100%;
-            max-width: 560px;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
             object-fit: cover;
-            background: #fff;
         }
     }
     
     .paper-box-text{
-        width: 100%;
+        max-width: 100%;
+        order: 1;
         min-width: 0;
-
-        p {
-            margin-bottom: 0.65em;
-        }
     }
     
     @include breakpoint($medium) {
-        flex-direction: row;
-
         .paper-box-image{
-            justify-content: flex-start;
-            flex: 0 0 clamp(320px, 43%, 560px);
-            max-width: clamp(320px, 43%, 560px);
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
         }
         
         .paper-box-text{
-            flex: 1 1 0;
-            width: auto;
-            padding-left: 0.75em;
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
         }
 
     }
 
 
-}
-
-#main.wide-page {
-    @include breakpoint($x-large) {
-        max-width: 1600px;
-    }
-}
-
-.page.wide-page {
-    @include breakpoint($large) {
-        @include span(10 of 12 last);
-        @include prefix(0.75 of 12);
-        @include suffix(0 of 12);
-    }
-}
-
-.archive.wide-page {
-    @include breakpoint($large) {
-        @include span(10 of 12 last);
-        @include prefix(0.75 of 12);
-    }
 }
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
