@@ -42,12 +42,13 @@
 ;
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
+    gap: 1.75rem;
+    padding: 2.25em 0;
     
 
     .paper-box-image{
@@ -56,35 +57,59 @@
         width: 100%;
         order: 2;
         img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            width: 100%;
+            max-width: 480px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
             object-fit: cover;
+            background: #fff;
         }
     }
     
     .paper-box-text{
-        max-width: 100%;
+        flex: 1 1 100%;
         order: 1;
+        min-width: 0;
+
+        p {
+            margin-bottom: 0.65em;
+        }
     }
     
     @include breakpoint($medium) {
         .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+            justify-content: flex-start;
+            flex: 0 0 42%;
+            max-width: 42%;
             order: 1;
         }
         
         .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+            justify-content: flex-start;
+            padding-left: 0.75em;
+            flex: 1 1 0;
+            max-width: none;
             order: 2;
         }
 
     }
 
 
+}
+
+.page.wide-page {
+    @include breakpoint($large) {
+        @include span(11 of 12 last);
+        @include prefix(0.25 of 12);
+        @include suffix(0.25 of 12);
+    }
+}
+
+.archive.wide-page {
+    @include breakpoint($large) {
+        @include span(11 of 12 last);
+        @include prefix(0.25 of 12);
+    }
 }
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
