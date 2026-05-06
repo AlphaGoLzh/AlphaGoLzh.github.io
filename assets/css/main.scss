@@ -44,8 +44,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     border-bottom: 1px #efefef solid;
     gap: 1.75rem;
     padding: 2.25em 0;
@@ -55,10 +54,9 @@
         justify-content: center;
         display: flex;
         width: 100%;
-        order: 2;
         img {
             width: 100%;
-            max-width: 480px;
+            max-width: 560px;
             border: 1px solid #e5e7eb;
             box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
             object-fit: cover;
@@ -67,8 +65,7 @@
     }
     
     .paper-box-text{
-        flex: 1 1 100%;
-        order: 1;
+        width: 100%;
         min-width: 0;
 
         p {
@@ -77,19 +74,18 @@
     }
     
     @include breakpoint($medium) {
+        flex-direction: row;
+
         .paper-box-image{
             justify-content: flex-start;
-            flex: 0 0 42%;
-            max-width: 42%;
-            order: 1;
+            flex: 0 0 clamp(320px, 43%, 560px);
+            max-width: clamp(320px, 43%, 560px);
         }
         
         .paper-box-text{
-            justify-content: flex-start;
-            padding-left: 0.75em;
             flex: 1 1 0;
-            max-width: none;
-            order: 2;
+            width: auto;
+            padding-left: 0.75em;
         }
 
     }
@@ -97,18 +93,24 @@
 
 }
 
+#main.wide-page {
+    @include breakpoint($x-large) {
+        max-width: 1600px;
+    }
+}
+
 .page.wide-page {
     @include breakpoint($large) {
-        @include span(11 of 12 last);
-        @include prefix(0.25 of 12);
-        @include suffix(0.25 of 12);
+        @include span(10 of 12 last);
+        @include prefix(0.75 of 12);
+        @include suffix(0 of 12);
     }
 }
 
 .archive.wide-page {
     @include breakpoint($large) {
-        @include span(11 of 12 last);
-        @include prefix(0.25 of 12);
+        @include span(10 of 12 last);
+        @include prefix(0.75 of 12);
     }
 }
 $scroll_offset : 2em;
